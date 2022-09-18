@@ -1,0 +1,137 @@
+.wrapper{
+
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.addTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.375rem;
+  margin-top: -1.6875rem
+}
+
+.inputTask {
+  width: 39.875rem;
+  background-color: var(--gray-500);
+  border-radius: 0.35rem;
+  font-size: 1rem;
+  font-color: var(--gray-300);
+  padding: 1rem;
+  color: #808080;
+  border: none;
+}
+
+.buttonTask {
+  margin-left: 0.5rem;
+  width: 5.625rem;
+  height: 3.375rem;
+  border-radius: 0.35rem;
+  background-color: var(--blue-700);
+  border: none;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttonTask:hover {
+  background-color: var(--blue-300);
+  transition: 0.4s;
+}
+.textButton {
+  margin-right: 0.5rem;
+}
+.taskContainer {
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  max-width: 46rem;
+  display: flex;
+  align-items: center;
+  margin: 4rem auto 0;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.textHeader {
+  font-size: 0.875rem;
+  color: var(--blue-300);
+  margin-right: 0.5rem;
+}
+.textHeaderDone {
+  font-size: 0.875rem;
+  color: var(--purple-700);
+  margin-right: 0.5rem;
+}
+.count {
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  background-color: var(--gray-400);
+  border-radius: 0.6rem;
+  color: var(--white);
+}
+.tasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 4rem;
+  border-top: 1px solid #808080;
+  max-width: 46rem;
+  margin: 1rem auto;
+}
+.title {
+  color: #808080;
+  margin-bottom: 0.3rem;
+  margin-top: 1rem;
+}
+.subtitle {
+  color: #808080;
+}
+.task {
+  display: flex;
+  max-width: 46rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem auto;
+  border: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: var(--gray-500);
+}
+.taskDetails {
+  max-width: 39.5rem;
+  color: var(--gray-100);
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.textDetailsChecked {
+  max-width: 39.5rem;
+  color: #808080;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-decoration: line-through;
+}
+.buttonChecked {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.buttonDeleted {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
